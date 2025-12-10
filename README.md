@@ -111,34 +111,26 @@ The project follows a clear step-by-step workflow:
 │
 ├─ data/
 │  ├─ raw/
-│  │  └─ Global_Superstore2_sample.csv        # optional sample only
-│  ├─ processed/
-│  │  ├─ Global_Superstore_UTF8.csv
-│  │  ├─ Global_Superstore_CLEANED_for_PBI.csv
-│  │  └─ data_quality_report.csv
-│  └─ kpi_outputs/
+│    └─ Global_Superstore2_sample.csv        
+!
+│-- kpi_outputs/
 │     ├─ kpi_core.csv
 │     ├─ kpi_monthly_trends.csv
 │     ├─ kpi_region_summary.csv
 │     └─ kpi_top_products.csv
 │
 ├─ notebooks/
-│  └─ Business_Analytics_Project.ipynb
+│  └─ global_retail_business_analytics.ipynb
 │
-├─ sql/
-│  ├─ 02_core_kpis.sql
-│  ├─ 03_monthly_trends.sql
-│  ├─ 04_region_summary.sql
-│  └─ 05_top_products.sql
+
 │
 ├─ dashboard/
-│  └─ Business_Process_Analytics.pbix         # Power BI report (if included)
+│  └─ global_retail_business_analytics.pbix         
 │
 ├─ reports/
-│  ├─ Executive_Summary.md
-│  └─ Full_Project_Report.md
+│  └─ full_project_report
 │
 └─ images/
-   ├─ dashboard_overview.png
-   ├─ monthly_trend_chart.png
-   └─ region_sales_chart.png
+   ├─ workflow.png
+   ├─ workflow_short.png
+   
