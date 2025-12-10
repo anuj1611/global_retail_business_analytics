@@ -5,7 +5,7 @@ The goal is to go from raw CSV → cleaned data → KPIs → interactive dashboa
 
 ---
 
-## 🔍 Project Overview
+##  Project Overview
 
 This project simulates how a junior data analyst / BI engineer would work in a real company:
 
@@ -18,7 +18,7 @@ This project simulates how a junior data analyst / BI engineer would work in a r
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 - Source: **Global Superstore** dataset (Kaggle).
 - Size: ~25K order records.
@@ -33,7 +33,7 @@ This project simulates how a junior data analyst / BI engineer would work in a r
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 - **Python:** pandas, matplotlib, seaborn  
 - **SQL:** SQLite (via `sqlite3`)  
@@ -43,7 +43,7 @@ This project simulates how a junior data analyst / BI engineer would work in a r
 
 ---
 
-## 🧭 Workflow
+##  Workflow
 
 The project follows a clear step-by-step workflow:
 
@@ -102,7 +102,7 @@ The project follows a clear step-by-step workflow:
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 .
