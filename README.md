@@ -103,7 +103,7 @@ The project follows a clear step-by-step workflow:
 ---
 
 ##  Repository Structure
-
+---
 ```text
 .
 ├─ README.md
@@ -111,27 +111,31 @@ The project follows a clear step-by-step workflow:
 │
 ├─ data/
 │  ├─ raw/
-│    └─ Global_Superstore2_sample.csv        
-!
-│-- kpi_outputs/
-│     ├─ kpi_core.csv
-│     ├─ kpi_monthly_trends.csv
-│     ├─ kpi_region_summary.csv
-│     └─ kpi_top_products.csv
+│  │  └─ Global_Superstore2_sample.csv
+│
+├─ kpi_outputs/
+│  ├─ kpi_core.csv
+│  ├─ kpi_monthly_trends.csv
+│  ├─ kpi_region_summary.csv
+│  └─ kpi_top_products.csv
 │
 ├─ notebooks/
 │  └─ global_retail_business_analytics.ipynb
 │
-
-│
 ├─ dashboard/
-│  └─ global_retail_business_analytics.pbix         
+│  └─ global_retail_business_analytics.pbix
 │
 ├─ reports/
 │  └─ full_project_report
 │
 └─ images/
    ├─ workflow.png
-   ├─ workflow_short.png
+   └─ workflow_short.png
+---
+adagv
+
+
+
+
 
    
